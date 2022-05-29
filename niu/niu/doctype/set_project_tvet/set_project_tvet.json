@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-27 14:21:30.412880",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_household_head",
+  "region",
+  "district",
+  "village",
+  "gps_number",
+  "column_break_4",
+  "contact_telephone",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_household_head",
+   "fieldtype": "Data",
+   "label": "Name of Household Head"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region",
+   "options": "\nTongatapu\nEua\nHaapai\nVavau\nNiuafoou\nNiuatoputapu"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Select",
+   "label": "District",
+   "options": "\nHihifo\nHahake"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_telephone",
+   "fieldtype": "Data",
+   "label": "Contact Telephone"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SET Project TVET",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "gps_number",
+   "fieldtype": "Data",
+   "label": "GPS Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-05-27 14:30:09.731540",
+ "modified_by": "Administrator",
+ "module": "NIU",
+ "name": "SET Project TVET",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

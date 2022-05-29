@@ -1,0 +1,533 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:name_of_household_head",
+ "creation": "2022-05-27 14:21:30.412880",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "identification_particulars",
+  "name_of_household_head",
+  "region",
+  "district",
+  "village",
+  "gps_number",
+  "name_of_interviewer",
+  "name_of_supervisor",
+  "respondent_name",
+  "column_break_4",
+  "contact_telephone",
+  "number_of_visits_done",
+  "survey_result_code",
+  "data_14",
+  "end_date",
+  "section_break_2",
+  "b1",
+  "b2",
+  "b3_how_many_rooms_does_your_household_occupy",
+  "b4_does_this_house_have_access_to_electricity",
+  "b5_what_is_the_electricity_source_this_house_has_access_to",
+  "b6_what_is_the_main_source_of_energy_for_cooking",
+  "column_break_23",
+  "data_23",
+  "b8_which_improved_sanitation_source_do_you_have_access_to",
+  "data_26",
+  "b10_does_this_household_have_internet_access",
+  "b11_does_this_household_have_access_to_wifi",
+  "b12_section_break",
+  "television_12_months_go",
+  "b12_column_break",
+  "television_now",
+  "section_c_education_and_training_section",
+  "section_c_education_and_training",
+  "read_and_write_simple_sentence_in_tongan_or_another_language",
+  "data_30",
+  "c3__what_were_the_main_reasons_why_you_never_attended_school",
+  "c4_what_were_the_main_reasons_why_you_dropped_out_of_school",
+  "amended_from",
+  "c5_what_levelgrade_are_you_currently_attending",
+  "c6_type_of_school",
+  "c7_highest_educational_level_you_successfully_completed_",
+  "column_break_43",
+  "c8",
+  "c9_vocational_and_technical_programmes",
+  "c13_is_this_vocational_and_technical_training_funded_by_tssf_",
+  "c14_if_yes_when_did_you_receive_tssf_funding",
+  "section_c1_tssf_funded_training_section",
+  "data_42",
+  "c22__would_you_choose_the_same_tvet_institution_again",
+  "c23_to_what_extent_are_you_satisfied_with_your_studies",
+  "c24_did_the_schools_receive_their_tuition_fees_on_time",
+  "c25_did_you_receive_your_monthly_oila_on_time",
+  "c26_who_recieved_the_fund",
+  "c27_what_did_they__spend_the_money_on",
+  "c28_if_transferred_back_to_family_how_much_did_they_send_back",
+  "column_break_55",
+  "c30_which_describes_your_situation_after_graduating",
+  "data_51",
+  "data_52",
+  "c33_where_was_your_first_job_located",
+  "c34__how_long_did_it_take_to_search_for_your_job",
+  "c35_how_much_did_you_spend_in_securing_your_first_job",
+  "c36_assistance_to_this_employment_opportunity",
+  "c37_do_you_use_acquired_skills_during_study_in_your_current_job",
+  "c38_why_were_you_unable_to_find_a_job_after_graduation",
+  "c39_how_can_the_program_be_improved_going_forward",
+  "section_d_employment_and_salary_wages_section",
+  "d_64",
+  "d1_relationship",
+  "d4__what_was_your_main_activity_during_the_last_12_months"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_household_head",
+   "fieldtype": "Data",
+   "label": "Name of Household Head",
+   "unique": 1
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region",
+   "options": "\nTongatapu\nEua\nHaapai\nVavau\nNiuafoou\nNiuatoputapu"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Select",
+   "label": "District",
+   "options": "\nHihifo\nHahake"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "gps_number",
+   "fieldtype": "Data",
+   "label": "GPS Number"
+  },
+  {
+   "fieldname": "name_of_interviewer",
+   "fieldtype": "Data",
+   "label": "Name of interviewer"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_telephone",
+   "fieldtype": "Data",
+   "label": "Contact Telephone"
+  },
+  {
+   "fieldname": "name_of_supervisor",
+   "fieldtype": "Data",
+   "label": "Name of supervisor"
+  },
+  {
+   "fieldname": "respondent_name",
+   "fieldtype": "Data",
+   "label": "Name of respondent (if not HH head)"
+  },
+  {
+   "fieldname": "number_of_visits_done",
+   "fieldtype": "Data",
+   "label": "Number of visits done"
+  },
+  {
+   "fieldname": "survey_result_code",
+   "fieldtype": "Select",
+   "label": "Survey result code",
+   "options": "\nOriginally selected household surveyed and completed\nSubsituted selected household surveyed and completed\nNo adult found at home (after all visits)\nHousehold absent for a long period\nRefused\nVacant\nHouse destroyed/ Dwelling not found\nOther"
+  },
+  {
+   "fieldname": "data_14",
+   "fieldtype": "Datetime",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "identification_particulars",
+   "fieldtype": "Section Break",
+   "label": "IDENTIFICATION PARTICULARS"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Section B  Housing Characteristics and Deprivation"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SET Project TVET",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "description": "Count living rooms, dining rooms, kitchen and bedrooms separated by walls, but not bathrooms",
+   "fieldname": "b3_how_many_rooms_does_your_household_occupy",
+   "fieldtype": "Data",
+   "label": "B3 How many rooms does your household occupy"
+  },
+  {
+   "fieldname": "b4_does_this_house_have_access_to_electricity",
+   "fieldtype": "Select",
+   "label": "B4 Does this house have access to electricity",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "b5_what_is_the_electricity_source_this_house_has_access_to",
+   "fieldtype": "Select",
+   "label": "B5 What is the electricity source this house has access to",
+   "options": "\nPublic Utility Gride\nPrivate or Shared Generator\nSolar PV System\nOthers"
+  },
+  {
+   "fieldname": "b6_what_is_the_main_source_of_energy_for_cooking",
+   "fieldtype": "Select",
+   "label": "B6 What is the main source of energy for cooking",
+   "options": "Electricity Grid\nElectricity (Generator)\nElectricity (Solar)\nLiquified Petroleum Gas\nBiogas\nParaffin\nCoal\nWood\nAnimal dung\nCrop waste\nStraw/ shrubs/ grass\nOther"
+  },
+  {
+   "description": "            ",
+   "fieldname": "data_23",
+   "fieldtype": "Select",
+   "label": "B7 Which water source do you have access to ",
+   "options": "\nPublic piped water supply\nCommunity water supply\nChurch water supply\nAnother household water supply\nHousehold tank\nProtected dug wells\nUnprotected dug wells\nWater truck\nBottled water\nOther"
+  },
+  {
+   "fieldname": "b8_which_improved_sanitation_source_do_you_have_access_to",
+   "fieldtype": "Select",
+   "label": "B8 Which improved sanitation source do you have access to",
+   "options": "\nConnection to public sewer\nConnection to septic system\nPour- flush latrine\nSimple pit latrine\nVentilated improved pit latrine\nBucket latrine\nPublic latrine\nNone\nOther (note)"
+  },
+  {
+   "fieldname": "data_26",
+   "fieldtype": "Select",
+   "label": "B9 Does this household have access to land line phone connection",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "Note: this include all sorts of internet connection: fixed line, wifi, mobile, etc. \n",
+   "fieldname": "b10_does_this_household_have_internet_access",
+   "fieldtype": "Select",
+   "label": "B10 Does this household have internet access?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "Note: this question follows the CCT survey. It could be better to ask access to mobile phone. At the moment, we may have to keep this question. \n",
+   "fieldname": "b11_does_this_household_have_access_to_wifi",
+   "fieldtype": "Select",
+   "label": "B11 Does this household have access to WIFI",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "section_c_education_and_training_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "read_and_write_simple_sentence_in_tongan_or_another_language",
+   "fieldtype": "Select",
+   "label": "C1 Read and write simple sentence in Tongan or another language",
+   "options": "\nYes, Tongan\nYes, another language\nNot at all"
+  },
+  {
+   "fieldname": "data_30",
+   "fieldtype": "Select",
+   "label": " C2 Have you ever attended any educational institution?                    ",
+   "options": "\nCurrently attending => C5\nCompleted school => C7\nDropped out of school => C4\nNever attended => C3"
+  },
+  {
+   "fieldname": "c3__what_were_the_main_reasons_why_you_never_attended_school",
+   "fieldtype": "Select",
+   "label": "C3  What were the main reasons why you never attended school?",
+   "options": "\nNo school/ school is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nNo dormitory available at school\nMyself not interested in school\nWorking to contribute to family income\nHelp at home with household chores\nBusy with animal husbandry\nFamily does not allow schooling\nIllness/ Disabled\nFamily Problem\nOthers\nAll ==>Section D"
+  },
+  {
+   "fieldname": "c4_what_were_the_main_reasons_why_you_dropped_out_of_school",
+   "fieldtype": "Select",
+   "label": "C4 What were the main reasons why you dropped out of school?",
+   "options": "\nNot liked school's environment\nSchool is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nUnderachiever/ not interested in school\nWorking to contribute to family income\nDue to migration\nDormitory is not available\nHelp at home with household chores\nTo become herder\nFamily does not allow schooling\nIllness\nDisabled\nOthers\nAll ==> C7"
+  },
+  {
+   "fieldname": "c5_what_levelgrade_are_you_currently_attending",
+   "fieldtype": "Select",
+   "label": "C5 What level/grade are you currently attending?  ",
+   "options": "\nKindergarten, preschool;\n01. to 06. Class 1 to class 6 (primary school);\n07. to 13. Form 1 to form 7 (secondary school);\n14. Technical or vocational grade;\n15. University/High school grade;\n16. Other (note)"
+  },
+  {
+   "fieldname": "c6_type_of_school",
+   "fieldtype": "Select",
+   "label": "C6 Type of School ",
+   "options": "\nPublic\nPrivate\nOther (note)"
+  },
+  {
+   "fieldname": "c7_highest_educational_level_you_successfully_completed_",
+   "fieldtype": "Select",
+   "label": "C7 Highest educational level you successfully completed ?",
+   "options": "\nNone\nPrimary\nSecondary\nHigh school\nTechnical vocational\nSpecialized secondary\nUndergraduate\nPostgraduate\nDoctor and above"
+  },
+  {
+   "fieldname": "c8",
+   "fieldtype": "Data",
+   "label": "C8 "
+  },
+  {
+   "description": "Have you (has NAME) attended any vocational and technical training programmes in the last 3 years?",
+   "fieldname": "c9_vocational_and_technical_programmes",
+   "fieldtype": "Select",
+   "label": "C10 Vocational and Technical Programmes ",
+   "options": "\nYes\nNo => Section D"
+  },
+  {
+   "fieldname": "c13_is_this_vocational_and_technical_training_funded_by_tssf_",
+   "fieldtype": "Select",
+   "label": "C13 Is this vocational and technical training funded by TSSF ?",
+   "options": "\nYes => C21\nNo => Section D"
+  },
+  {
+   "fieldname": "c14_if_yes_when_did_you_receive_tssf_funding",
+   "fieldtype": "Data",
+   "label": "C14 If Yes, when did you receive TSSF funding?"
+  },
+  {
+   "description": "For household members who have attended any TSSF funded training",
+   "fieldname": "section_c1_tssf_funded_training_section",
+   "fieldtype": "Section Break",
+   "label": "SECTION C1 TSSF Funded Training"
+  },
+  {
+   "description": " Looking back, if you were free to choose again, to what extent would you probably choose the same field of study?",
+   "fieldname": "data_42",
+   "fieldtype": "Select",
+   "label": "C21  If you were free to choose again, would you probably choose the same field of study?",
+   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
+  },
+  {
+   "description": "Looking back, if you were free to choose again to what extent would you probably choose the same TVET institution",
+   "fieldname": "c22__would_you_choose_the_same_tvet_institution_again",
+   "fieldtype": "Select",
+   "label": "C22  Would you choose the same TVET institution again?",
+   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
+  },
+  {
+   "description": "Looking back, to what extent are you satisfied with your studies in general?",
+   "fieldname": "c23_to_what_extent_are_you_satisfied_with_your_studies",
+   "fieldtype": "Select",
+   "label": "C23 To what extent are you satisfied with your studies?",
+   "options": "\nNot Satisfied at all\nNot Satisfied\nDon't know\nSatisfied\nVery Satisfied"
+  },
+  {
+   "fieldname": "c24_did_the_schools_receive_their_tuition_fees_on_time",
+   "fieldtype": "Select",
+   "label": "C24 Did the schools receive their tuition fees on time? ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "c25_did_you_receive_your_monthly_oila_on_time",
+   "fieldtype": "Select",
+   "label": "C25 Did you receive your monthly OILA on time? ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "c26_who_recieved_the_fund",
+   "fieldtype": "Select",
+   "label": "C26 Who recieved the fund?",
+   "options": "\nStudent\nParents\nGuardian"
+  },
+  {
+   "fieldname": "c27_what_did_they__spend_the_money_on",
+   "fieldtype": "Select",
+   "label": "C27 What did they  spend the money on?",
+   "options": "\nAccomodation\nFood\nEducation\nClothing\nHealth\nTransfer back to Family\nOthers (specify)"
+  },
+  {
+   "fieldname": "c28_if_transferred_back_to_family_how_much_did_they_send_back",
+   "fieldtype": "Data",
+   "label": "C28 If transferred back to family, how much did they send back?"
+  },
+  {
+   "description": "Which description applies to your situation in the first six months after graduating? ",
+   "fieldname": "c30_which_describes_your_situation_after_graduating",
+   "fieldtype": "Select",
+   "label": "C30 Which describes your situation after graduating? ",
+   "options": "\nEmployment\nSelf-employed/freelance work\nOccasional job (just to earn money)\nInternship\ncontinued study or training\nHousewife, househusband, family work\nNot employed, but searching for a job\nOther (please specify)"
+  },
+  {
+   "description": "How many jobs (including your current one) have you had altogether since graduation?",
+   "fieldname": "data_51",
+   "fieldtype": "Select",
+   "label": "C31 How many jobs have you had altogether since graduation?",
+   "options": "\nNo job, I have not been employed since graduation =>C38\nOne job\nTwo jobs\nThree jobs\nMore than three jobs"
+  },
+  {
+   "fieldname": "data_52",
+   "fieldtype": "Select",
+   "label": "C32 When did you start your first job after graduation?",
+   "options": "\nBefore graduation\nAt the time of graduation\nLess than 1 month after graduation\n1 to less than 3 months after graduation\n3 to less than 6 months after graduation\n6 to less than 9 months after graduation\n9 to less than 12 months after graduation\nMore than one year after graduation\nI have not been employed since graduation"
+  },
+  {
+   "fieldname": "c33_where_was_your_first_job_located",
+   "fieldtype": "Select",
+   "label": "C33 Where was your first job located?",
+   "options": "\nLocal (divisional)\nOther Division in Tonga (other than local)\nInternational"
+  },
+  {
+   "description": "How long did it take to search for your job? Include also job search period before graduation.",
+   "fieldname": "c34__how_long_did_it_take_to_search_for_your_job",
+   "fieldtype": "Select",
+   "label": "C34  How long did it take to search for your job?",
+   "options": "\nLess than 1 month\n1 to less than 3 months\n3 to less than 6 months\n6 to less than 9 months\n9 to less than 12 months\nMore than one year"
+  },
+  {
+   "fieldname": "c35_how_much_did_you_spend_in_securing_your_first_job",
+   "fieldtype": "Data",
+   "label": "C35 How much did you spend in securing your first job?"
+  },
+  {
+   "description": "Did you get any assistance to access  this employment opportunity?",
+   "fieldname": "c36_assistance_to_this_employment_opportunity",
+   "fieldtype": "Select",
+   "label": "C36 Assistance to this employment opportunity?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "To what extent is the knowledge and skills you acquired during study utilised in your current job? \nGo ==> C39",
+   "fieldname": "c37_do_you_use_acquired_skills_during_study_in_your_current_job",
+   "fieldtype": "Select",
+   "label": "C37 Do you use acquired skills during study in your current job?",
+   "options": "\nNot at all\nNot much\nSome\na lot\nCompletely"
+  },
+  {
+   "fieldname": "c38_why_were_you_unable_to_find_a_job_after_graduation",
+   "fieldtype": "Select",
+   "label": "C38 Why were you unable to find a job after graduation?",
+   "options": "\ncontinued studying\nHouse work\nhealth issues\ntraining not appropriate for market demand\nothers (specify)"
+  },
+  {
+   "fieldname": "c39_how_can_the_program_be_improved_going_forward",
+   "fieldtype": "Data",
+   "label": "C39 How can the program be improved, going forward?"
+  },
+  {
+   "description": "Asked of persons aged 15+ years.",
+   "fieldname": "section_d_employment_and_salary_wages_section",
+   "fieldtype": "Section Break",
+   "label": "Section D Employment and Salary wages"
+  },
+  {
+   "description": "What is the relationship of the person providing the information to the person for whom information is being collected?",
+   "fieldname": "d1_relationship",
+   "fieldtype": "Select",
+   "label": "D2 Relationship",
+   "options": "\nSpouse /partner\nSon /daughter\nMother / father\nOther relative\nUnrelated"
+  },
+  {
+   "description": "05-13 => Section C",
+   "fieldname": "d4__what_was_your_main_activity_during_the_last_12_months",
+   "fieldtype": "Select",
+   "label": "D4  What was your main activity during the last 12 months? ",
+   "options": "Paid employment:\n01 Employer (producing goods or services for sale, running a business with paid employees)\n02 Self-employed (producing goods or services for sale, runing a business without paid employees)\n03 Employee, working for wages/salary in public sector (incl. NGO, UN agencies)\n04 Employee, working for wages/salary in private sector;\nUnpaid employment:\n05 Producing goods for own and/or family consumption (self-employed)\n06 Unpaid family worker (family business/plantation)\n07 Unpaid family worker, help with basic household duties inside (washing, cooking, cleaning, etc) and outside (gardening, maintaining lawn, etc)\n08 Volunteer work (community, church, etc.)\nNot in the labour force:\n09 Student\n10 Home maker\n11 Retired/Too old\n12 None - Did not pursue any activity (no work)\n13 Physically/Mentally disabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "d_64",
+   "fieldtype": "Check",
+   "label": "Is the person him/herself responding to the questions?"
+  },
+  {
+   "fieldname": "television_now",
+   "fieldtype": "Data",
+   "label": "Television - Now"
+  },
+  {
+   "fieldname": "b12_section_break",
+   "fieldtype": "Section Break",
+   "label": "B12 How many following items does this household have?"
+  },
+  {
+   "fieldname": "television_12_months_go",
+   "fieldtype": "Data",
+   "label": "Television - 12 Months ago"
+  },
+  {
+   "fieldname": "b12_column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "For all household members aged 5 years and above",
+   "fieldname": "section_c_education_and_training",
+   "fieldtype": "Section Break",
+   "label": "Section C Education and Training"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b1",
+   "fieldtype": "Select",
+   "label": "B1 For the house in which you live, what is the TENURE status for this household?",
+   "options": "\nRenting with Landlord Charges\nLive in the for free\nOwn the house outright\nOwn the house with Mortgage/Loan"
+  },
+  {
+   "fieldname": "b2",
+   "fieldtype": "Select",
+   "label": "B2 What type of living quater (main house) is this?",
+   "options": "\nOne house detached from any other house\nOne house attached to one or more houses\nBuilding with 2 or more apartments\nBuilding with 2 or more households sharing kitchen/ toilet\nBuilding attached to a business/ other non-resident building\nOther"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-05-29 20:55:41.389994",
+ "modified_by": "Administrator",
+ "module": "Savea",
+ "name": "SET Project TVET",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Savea User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
