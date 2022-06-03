@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
  "allow_import": 1,
  "autoname": "field:name_of_household_head",
  "creation": "2022-05-27 14:21:30.412880",
@@ -12,72 +13,211 @@
   "region",
   "district",
   "village",
-  "gps_number",
+  "contact_telephone",
+  "data_14",
+  "column_break_1",
+  "number_of_visits_done",
   "name_of_interviewer",
   "name_of_supervisor",
-  "respondent_name",
-  "column_break_4",
-  "contact_telephone",
-  "number_of_visits_done",
   "survey_result_code",
-  "data_14",
+  "respondent_name",
   "end_date",
-  "section_break_2",
-  "b1",
-  "b2",
-  "b3_how_many_rooms_does_your_household_occupy",
-  "b4_does_this_house_have_access_to_electricity",
-  "b5_what_is_the_electricity_source_this_house_has_access_to",
-  "b6_what_is_the_main_source_of_energy_for_cooking",
-  "column_break_23",
-  "data_23",
-  "b8_which_improved_sanitation_source_do_you_have_access_to",
-  "data_26",
-  "b10_does_this_household_have_internet_access",
-  "b11_does_this_household_have_access_to_wifi",
-  "b12_section_break",
-  "television_12_months_go",
-  "b12_column_break",
-  "television_now",
+  "section_break_17",
+  "gps_number",
+  "section_a",
+  "household_roster",
+  "section_b",
+  "b_1",
+  "b_2",
+  "b_3",
+  "b_4",
+  "b_5",
+  "b_6",
+  "column_break_2",
+  "b_7",
+  "b_8",
+  "b_9",
+  "b_10",
+  "b_11",
+  "b_12",
+  "household_items",
   "section_c_education_and_training_section",
-  "section_c_education_and_training",
-  "read_and_write_simple_sentence_in_tongan_or_another_language",
-  "data_30",
-  "c3__what_were_the_main_reasons_why_you_never_attended_school",
-  "c4_what_were_the_main_reasons_why_you_dropped_out_of_school",
-  "amended_from",
-  "c5_what_levelgrade_are_you_currently_attending",
-  "c6_type_of_school",
-  "c7_highest_educational_level_you_successfully_completed_",
+  "section_c",
+  "c_1",
+  "c_2",
+  "c_3",
+  "c_4",
+  "c_5",
+  "c_6",
+  "c_7",
   "column_break_43",
-  "c8",
-  "c9_vocational_and_technical_programmes",
-  "c13_is_this_vocational_and_technical_training_funded_by_tssf_",
-  "c14_if_yes_when_did_you_receive_tssf_funding",
-  "section_c1_tssf_funded_training_section",
-  "data_42",
-  "c22__would_you_choose_the_same_tvet_institution_again",
-  "c23_to_what_extent_are_you_satisfied_with_your_studies",
-  "c24_did_the_schools_receive_their_tuition_fees_on_time",
-  "c25_did_you_receive_your_monthly_oila_on_time",
-  "c26_who_recieved_the_fund",
-  "c27_what_did_they__spend_the_money_on",
-  "c28_if_transferred_back_to_family_how_much_did_they_send_back",
+  "c_8",
+  "c_9",
+  "c_10",
+  "c_13",
+  "c_14",
+  "section_c1",
+  "c_21",
+  "c_23",
+  "c_25",
+  "c_27",
+  "c_31",
+  "c_33",
+  "c_35",
+  "c_37",
+  "c_39",
   "column_break_55",
-  "c30_which_describes_your_situation_after_graduating",
-  "data_51",
-  "data_52",
-  "c33_where_was_your_first_job_located",
-  "c34__how_long_did_it_take_to_search_for_your_job",
-  "c35_how_much_did_you_spend_in_securing_your_first_job",
-  "c36_assistance_to_this_employment_opportunity",
-  "c37_do_you_use_acquired_skills_during_study_in_your_current_job",
-  "c38_why_were_you_unable_to_find_a_job_after_graduation",
-  "c39_how_can_the_program_be_improved_going_forward",
-  "section_d_employment_and_salary_wages_section",
-  "d_64",
-  "d1_relationship",
-  "d4__what_was_your_main_activity_during_the_last_12_months"
+  "c_22",
+  "c_24",
+  "c_26",
+  "c_28",
+  "c_30",
+  "c_32",
+  "c_34",
+  "c_36",
+  "c_38",
+  "section_d",
+  "d_1",
+  "d_5b",
+  "d_5a",
+  "d_7",
+  "d_9a",
+  "d_9b",
+  "d_11",
+  "column_break_70",
+  "d_2",
+  "d4",
+  "d_6a",
+  "d_6b",
+  "d_8",
+  "d_10",
+  "section_e",
+  "household_income",
+  "section_f",
+  "f_1",
+  "f_1_b",
+  "f_3",
+  "f_3_b",
+  "f_5",
+  "f_5_b",
+  "f_7",
+  "f_7_b",
+  "f_9",
+  "f_9_b",
+  "f_11",
+  "f_11_b",
+  "f_13",
+  "f_13_b",
+  "f_15",
+  "f_15_b",
+  "f_17",
+  "f_17_b",
+  "f_19",
+  "f_19_b",
+  "f_21",
+  "f_21_b",
+  "f_23",
+  "f_23_b",
+  "f_25",
+  "f_25_b",
+  "f_27",
+  "f_27_b",
+  "f_29",
+  "f_29_b",
+  "f_31",
+  "f_31_b",
+  "f_33",
+  "f_33_b",
+  "f_35",
+  "f_35_b",
+  "f_37",
+  "f_37_b",
+  "f_39",
+  "f_39_b",
+  "f_41",
+  "f_41_b",
+  "f_43",
+  "f_43_b",
+  "f_45",
+  "f_45_b",
+  "f_47",
+  "f_47_b",
+  "f_49",
+  "f_49_b",
+  "f_51",
+  "f_51_b",
+  "f_53",
+  "f_53_b",
+  "f_55",
+  "f_55_b",
+  "f_57",
+  "f_57_b",
+  "f_59",
+  "f_59_b",
+  "f_61",
+  "f_61_b",
+  "column_break_129",
+  "f_2",
+  "f_2_b",
+  "f_4",
+  "f_4_b",
+  "f_6",
+  "f_6_b",
+  "f_8",
+  "f_8_b",
+  "f_10",
+  "f_10_b",
+  "f_12",
+  "f_12_b",
+  "f_14",
+  "f_14_b",
+  "f_16",
+  "f_16_b",
+  "f_18",
+  "f_18_b",
+  "f_20",
+  "f_20_b",
+  "f_22",
+  "f_22_b",
+  "f_24",
+  "f_24_b",
+  "f_26",
+  "f_26_b",
+  "f_28",
+  "f_28_b",
+  "f_30",
+  "f_30_b",
+  "f_32",
+  "f_32_b",
+  "f_34",
+  "f_34_b",
+  "f_36",
+  "f_36_b",
+  "f_38",
+  "f_38_b",
+  "f_40",
+  "f_40_b",
+  "f_42",
+  "f_42_b",
+  "f_44",
+  "f_44_b",
+  "f_46",
+  "f_46_b",
+  "f_48",
+  "f_48_b",
+  "f_50",
+  "f_50_b",
+  "f_52",
+  "f_52_b",
+  "f_54",
+  "f_54_b",
+  "f_56",
+  "f_56_b",
+  "f_58",
+  "f_58_b",
+  "f_60",
+  "f_60_b",
+  "amended_from"
  ],
  "fields": [
   {
@@ -105,17 +245,14 @@
   },
   {
    "fieldname": "gps_number",
-   "fieldtype": "Data",
+   "fieldtype": "Geolocation",
+   "ignore_user_permissions": 1,
    "label": "GPS Number"
   },
   {
    "fieldname": "name_of_interviewer",
    "fieldtype": "Data",
    "label": "Name of interviewer"
-  },
-  {
-   "fieldname": "column_break_4",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "contact_telephone",
@@ -159,9 +296,361 @@
    "label": "IDENTIFICATION PARTICULARS"
   },
   {
-   "fieldname": "section_break_2",
-   "fieldtype": "Section Break",
-   "label": "Section B  Housing Characteristics and Deprivation"
+   "fieldname": "section_c_education_and_training_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "05-13 => Section C",
+   "fieldname": "d4",
+   "fieldtype": "Select",
+   "label": "D4. What was your main activity during the last 12 months? ",
+   "options": "\nPaid employment:\n01 Employer (producing goods or services for sale, running a business with paid employees)\n02 Self-employed (producing goods or services for sale, running a business without paid employees)\n03 Employee, working for wages/salary in public sector (incl. NGO, UN agencies)\n04 Employee, working for wages/salary in private sector;\nUnpaid employment:\n05 Producing goods for own and/or family consumption (self-employed)\n06 Unpaid family worker (family business/plantation)\n07 Unpaid family worker, help with basic household duties inside (washing, cooking, cleaning, etc) and outside (gardening, maintaining lawn, etc)\n08 Volunteer work (community, church, etc.)\nNot in the labour force:\n09 Student\n10 Home maker\n11 Retired/Too old\n12 None - Did not pursue any activity (no work)\n13 Physically/Mentally disabled"
+  },
+  {
+   "fieldname": "b_1",
+   "fieldtype": "Select",
+   "label": "B1 For the house in which you live, what is the TENURE status for this household?",
+   "options": "\nRenting with Landlord Charges\nLive in the for free\nOwn the house outright\nOwn the house with Mortgage/Loan"
+  },
+  {
+   "fieldname": "b_2",
+   "fieldtype": "Select",
+   "label": "B2 What type of living quater (main house) is this?",
+   "options": "\nOne house detached from any other house\nOne house attached to one or more houses\nBuilding with 2 or more apartments\nBuilding with 2 or more households sharing kitchen/ toilet\nBuilding attached to a business/ other non-resident building\nOther"
+  },
+  {
+   "description": "Count living rooms, dining rooms, kitchen and bedrooms separated by walls, but not bathrooms",
+   "fieldname": "b_3",
+   "fieldtype": "Data",
+   "label": "B3 How many rooms does your household occupy"
+  },
+  {
+   "fieldname": "b_4",
+   "fieldtype": "Select",
+   "label": "B4 Does this house have access to electricity",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "b_5",
+   "fieldtype": "Select",
+   "label": "B5 What is the electricity source this house has access to",
+   "options": "\nPublic Utility Gride\nPrivate or Shared Generator\nSolar PV System\nOthers"
+  },
+  {
+   "fieldname": "d_1",
+   "fieldtype": "Select",
+   "label": "D1. Is the person him/herself responding to the questions?",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "b_6",
+   "fieldtype": "Select",
+   "label": "B6 What is the main source of energy for cooking",
+   "options": "\nElectricity Grid\nElectricity (Generator)\nElectricity (Solar)\nLiquified Petroleum Gas\nBiogas\nParaffin\nCoal\nWood\nAnimal dung\nCrop waste\nStraw/ shrubs/ grass\nOther"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "            ",
+   "fieldname": "b_7",
+   "fieldtype": "Select",
+   "label": "B7 Which water source do you have access to ",
+   "options": "\nPublic piped water supply\nCommunity water supply\nChurch water supply\nAnother household water supply\nHousehold tank\nProtected dug wells\nUnprotected dug wells\nWater truck\nBottled water\nOther"
+  },
+  {
+   "fieldname": "b_8",
+   "fieldtype": "Select",
+   "label": "B8 Which improved sanitation source do you have access to",
+   "options": "\nConnection to public sewer\nConnection to septic system\nPour- flush latrine\nSimple pit latrine\nVentilated improved pit latrine\nBucket latrine\nPublic latrine\nNone\nOther (note)"
+  },
+  {
+   "fieldname": "b_9",
+   "fieldtype": "Select",
+   "label": "B9 Does this household have access to land line phone connection",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "Note: this include all sorts of internet connection: fixed line, wifi, mobile, etc. \n",
+   "fieldname": "b_10",
+   "fieldtype": "Select",
+   "label": "B10 Does this household have internet access?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "Note: this question follows the CCT survey. It could be better to ask access to mobile phone. At the moment, we may have to keep this question. \n",
+   "fieldname": "b_11",
+   "fieldtype": "Select",
+   "label": "B11 Does this household have access to WIFI",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "b_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c_1",
+   "fieldtype": "Select",
+   "label": "C1 Read and write simple sentence in Tongan or another language",
+   "options": "\nYes, Tongan\nYes, another language\nNot at all"
+  },
+  {
+   "fieldname": "c_2",
+   "fieldtype": "Select",
+   "label": " C2 Have you ever attended any educational institution?                    ",
+   "options": "\nCurrently attending => C5\nCompleted school => C7\nDropped out of school => C4\nNever attended => C3"
+  },
+  {
+   "fieldname": "c_3",
+   "fieldtype": "Select",
+   "label": "C3  What were the main reasons why you never attended school?",
+   "options": "\nNo school/ school is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nNo dormitory available at school\nMyself not interested in school\nWorking to contribute to family income\nHelp at home with household chores\nBusy with animal husbandry\nFamily does not allow schooling\nIllness/ Disabled\nFamily Problem\nOthers\nAll ==>Section D"
+  },
+  {
+   "fieldname": "c_4",
+   "fieldtype": "Select",
+   "label": "C4 What were the main reasons why you dropped out of school?",
+   "options": "\nNot liked school's environment\nSchool is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nUnderachiever/ not interested in school\nWorking to contribute to family income\nDue to migration\nDormitory is not available\nHelp at home with household chores\nTo become herder\nFamily does not allow schooling\nIllness\nDisabled\nOthers\nAll ==> C7"
+  },
+  {
+   "fieldname": "c_5",
+   "fieldtype": "Select",
+   "label": "C5 What level/grade are you currently attending?  ",
+   "options": "\nKindergarten, preschool;\n01. to 06. Class 1 to class 6 (primary school);\n07. to 13. Form 1 to form 7 (secondary school);\n14. Technical or vocational grade;\n15. University/High school grade;\n16. Other (note)"
+  },
+  {
+   "fieldname": "c_6",
+   "fieldtype": "Select",
+   "label": "C6 Type of School ",
+   "options": "\nPublic\nPrivate\nOther (note)"
+  },
+  {
+   "fieldname": "c_7",
+   "fieldtype": "Select",
+   "label": "C7 Highest educational level you successfully completed ?",
+   "options": "\nNone\nPrimary\nSecondary\nHigh school\nTechnical vocational\nSpecialized secondary\nUndergraduate\nPostgraduate\nDoctor and above"
+  },
+  {
+   "fieldname": "c_13",
+   "fieldtype": "Select",
+   "label": "C13 Is this vocational and technical training funded by TSSF ?",
+   "options": "\nYes => C21\nNo => Section D"
+  },
+  {
+   "fieldname": "c_14",
+   "fieldtype": "Data",
+   "label": "C14 If Yes, when did you receive TSSF funding?"
+  },
+  {
+   "description": " Looking back, if you were free to choose again, to what extent would you probably choose the same field of study?",
+   "fieldname": "c_21",
+   "fieldtype": "Select",
+   "label": "C21  If you were free to choose again, would you probably choose the same field of study?",
+   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
+  },
+  {
+   "description": "Looking back, if you were free to choose again to what extent would you probably choose the same TVET institution",
+   "fieldname": "c_22",
+   "fieldtype": "Select",
+   "label": "C22  Would you choose the same TVET institution again?",
+   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
+  },
+  {
+   "description": "Looking back, to what extent are you satisfied with your studies in general?",
+   "fieldname": "c_23",
+   "fieldtype": "Select",
+   "label": "C23 To what extent are you satisfied with your studies?",
+   "options": "\nNot Satisfied at all\nNot Satisfied\nDon't know\nSatisfied\nVery Satisfied"
+  },
+  {
+   "fieldname": "c_24",
+   "fieldtype": "Select",
+   "label": "C24 Did the schools receive their tuition fees on time? ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "c_25",
+   "fieldtype": "Select",
+   "label": "C25 Did you receive your monthly OILA on time? ",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "c_26",
+   "fieldtype": "Select",
+   "label": "C26 Who recieved the fund?",
+   "options": "\nStudent\nParents\nGuardian"
+  },
+  {
+   "fieldname": "c_27",
+   "fieldtype": "Select",
+   "label": "C27 What did they  spend the money on?",
+   "options": "\nAccomodation\nFood\nEducation\nClothing\nHealth\nTransfer back to Family\nOthers (specify)"
+  },
+  {
+   "fieldname": "c_28",
+   "fieldtype": "Data",
+   "label": "C28 If transferred back to family, how much did they send back?"
+  },
+  {
+   "description": "Which description applies to your situation in the first six months after graduating? ",
+   "fieldname": "c_30",
+   "fieldtype": "Select",
+   "label": "C30 Which describes your situation after graduating? ",
+   "options": "\nEmployment\nSelf-employed/freelance work\nOccasional job (just to earn money)\nInternship\ncontinued study or training\nHousewife, househusband, family work\nNot employed, but searching for a job\nOther (please specify)"
+  },
+  {
+   "description": "How many jobs (including your current one) have you had altogether since graduation?",
+   "fieldname": "c_31",
+   "fieldtype": "Select",
+   "label": "C31 How many jobs have you had altogether since graduation?",
+   "options": "\nNo job, I have not been employed since graduation =>C38\nOne job\nTwo jobs\nThree jobs\nMore than three jobs"
+  },
+  {
+   "fieldname": "c_32",
+   "fieldtype": "Select",
+   "label": "C32 When did you start your first job after graduation?",
+   "options": "\nBefore graduation\nAt the time of graduation\nLess than 1 month after graduation\n1 to less than 3 months after graduation\n3 to less than 6 months after graduation\n6 to less than 9 months after graduation\n9 to less than 12 months after graduation\nMore than one year after graduation\nI have not been employed since graduation"
+  },
+  {
+   "fieldname": "c_33",
+   "fieldtype": "Select",
+   "label": "C33 Where was your first job located?",
+   "options": "\nLocal (divisional)\nOther Division in Tonga (other than local)\nInternational"
+  },
+  {
+   "description": "How long did it take to search for your job? Include also job search period before graduation.",
+   "fieldname": "c_34",
+   "fieldtype": "Select",
+   "label": "C34  How long did it take to search for your job?",
+   "options": "\nLess than 1 month\n1 to less than 3 months\n3 to less than 6 months\n6 to less than 9 months\n9 to less than 12 months\nMore than one year"
+  },
+  {
+   "fieldname": "c_35",
+   "fieldtype": "Data",
+   "label": "C35 How much did you spend in securing your first job?"
+  },
+  {
+   "description": "Did you get any assistance to access  this employment opportunity?",
+   "fieldname": "c_36",
+   "fieldtype": "Select",
+   "label": "C36 Assistance to this employment opportunity?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "description": "To what extent is the knowledge and skills you acquired during study utilised in your current job? \nGo ==> C39",
+   "fieldname": "c_37",
+   "fieldtype": "Select",
+   "label": "C37 Do you use acquired skills during study in your current job?",
+   "options": "\nNot at all\nNot much\nSome\na lot\nCompletely"
+  },
+  {
+   "fieldname": "c_38",
+   "fieldtype": "Select",
+   "label": "C38 Why were you unable to find a job after graduation?",
+   "options": "\ncontinued studying\nHouse work\nhealth issues\ntraining not appropriate for market demand\nothers (specify)"
+  },
+  {
+   "fieldname": "c_39",
+   "fieldtype": "Data",
+   "label": "C39 How can the program be improved, going forward?"
+  },
+  {
+   "description": "Examples, such as nurse, teacher, enumerator, security, cook, shop-keeper, farmer, fisherman",
+   "fieldname": "d_5a",
+   "fieldtype": "Data",
+   "label": "D5A. Types of Work (Occupation)"
+  },
+  {
+   "description": "ISCO Code",
+   "fieldname": "d_5b",
+   "fieldtype": "Data",
+   "label": "D5B. Occupation Code"
+  },
+  {
+   "description": "Examples: health, education, security, restaurant, retail sales, agriculture, fisheries\nProvide the Name of the industry\n",
+   "fieldname": "d_6a",
+   "fieldtype": "Data",
+   "label": "D6A. Industry"
+  },
+  {
+   "description": "ISIC Code",
+   "fieldname": "d_6b",
+   "fieldtype": "Data",
+   "label": "D6B. Industry Code"
+  },
+  {
+   "description": "NOTE: Please include commissions, bonuses, tips and any other fees received for the work done.\n\n",
+   "fieldname": "d_7",
+   "fieldtype": "Data",
+   "label": "D7. How much did you earned in the last 12 months ? "
+  },
+  {
+   "fieldname": "d_8",
+   "fieldtype": "Select",
+   "label": "D8. Did you worked overseas in the last 12 months?",
+   "options": "\nYes\nNo => Section C"
+  },
+  {
+   "fieldname": "d_9a",
+   "fieldtype": "Link",
+   "label": "D9A. Name the Country you worked in ?",
+   "options": "Country"
+  },
+  {
+   "fetch_from": "d_9a.code",
+   "fieldname": "d_9b",
+   "fieldtype": "Data",
+   "label": "D9B. Country code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "d_10",
+   "fieldtype": "Data",
+   "label": "D10. Weeks worked overseas in last 12 months"
+  },
+  {
+   "description": "<b>NOTE</b>: Please include commissions, bonuses, tips and any other fees received for the work done.\n",
+   "fieldname": "d_11",
+   "fieldtype": "Data",
+   "label": "D11. How much did you receive the last time you were paid?"
+  },
+  {
+   "description": "Diploma, certificate, professional certificate and other approved of profession.  Describe your main profession.",
+   "fieldname": "c_8",
+   "fieldtype": "Data",
+   "label": "C8  What is the main type of profession?"
+  },
+  {
+   "description": "Have you (has NAME) attended any vocational and technical training programmes in the last 3 years?",
+   "fieldname": "c_10",
+   "fieldtype": "Select",
+   "label": "C10 Vocational and Technical Programmes ",
+   "options": "\nYes\nNo => Section D"
+  },
+  {
+   "fieldname": "c_9",
+   "fieldtype": "Data",
+   "label": "C9 ISCED Code"
+  },
+  {
+   "bold": 1,
+   "default": "0",
+   "fieldname": "f_1",
+   "fieldtype": "Check",
+   "label": "F1. Rent"
   },
   {
    "fieldname": "amended_from",
@@ -173,330 +662,829 @@
    "read_only": 1
   },
   {
-   "description": "Count living rooms, dining rooms, kitchen and bedrooms separated by walls, but not bathrooms",
-   "fieldname": "b3_how_many_rooms_does_your_household_occupy",
-   "fieldtype": "Data",
-   "label": "B3 How many rooms does your household occupy"
+   "fieldname": "column_break_129",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "b4_does_this_house_have_access_to_electricity",
-   "fieldtype": "Select",
-   "label": "B4 Does this house have access to electricity",
-   "options": "\nYes\nNo"
-  },
-  {
-   "fieldname": "b5_what_is_the_electricity_source_this_house_has_access_to",
-   "fieldtype": "Select",
-   "label": "B5 What is the electricity source this house has access to",
-   "options": "\nPublic Utility Gride\nPrivate or Shared Generator\nSolar PV System\nOthers"
-  },
-  {
-   "fieldname": "b6_what_is_the_main_source_of_energy_for_cooking",
-   "fieldtype": "Select",
-   "label": "B6 What is the main source of energy for cooking",
-   "options": "Electricity Grid\nElectricity (Generator)\nElectricity (Solar)\nLiquified Petroleum Gas\nBiogas\nParaffin\nCoal\nWood\nAnimal dung\nCrop waste\nStraw/ shrubs/ grass\nOther"
-  },
-  {
-   "description": "            ",
-   "fieldname": "data_23",
-   "fieldtype": "Select",
-   "label": "B7 Which water source do you have access to ",
-   "options": "\nPublic piped water supply\nCommunity water supply\nChurch water supply\nAnother household water supply\nHousehold tank\nProtected dug wells\nUnprotected dug wells\nWater truck\nBottled water\nOther"
-  },
-  {
-   "fieldname": "b8_which_improved_sanitation_source_do_you_have_access_to",
-   "fieldtype": "Select",
-   "label": "B8 Which improved sanitation source do you have access to",
-   "options": "\nConnection to public sewer\nConnection to septic system\nPour- flush latrine\nSimple pit latrine\nVentilated improved pit latrine\nBucket latrine\nPublic latrine\nNone\nOther (note)"
-  },
-  {
-   "fieldname": "data_26",
-   "fieldtype": "Select",
-   "label": "B9 Does this household have access to land line phone connection",
-   "options": "\nYes\nNo"
-  },
-  {
-   "description": "Note: this include all sorts of internet connection: fixed line, wifi, mobile, etc. \n",
-   "fieldname": "b10_does_this_household_have_internet_access",
-   "fieldtype": "Select",
-   "label": "B10 Does this household have internet access?",
-   "options": "\nYes\nNo"
-  },
-  {
-   "description": "Note: this question follows the CCT survey. It could be better to ask access to mobile phone. At the moment, we may have to keep this question. \n",
-   "fieldname": "b11_does_this_household_have_access_to_wifi",
-   "fieldtype": "Select",
-   "label": "B11 Does this household have access to WIFI",
-   "options": "\nYes\nNo"
-  },
-  {
-   "fieldname": "section_c_education_and_training_section",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "read_and_write_simple_sentence_in_tongan_or_another_language",
-   "fieldtype": "Select",
-   "label": "C1 Read and write simple sentence in Tongan or another language",
-   "options": "\nYes, Tongan\nYes, another language\nNot at all"
-  },
-  {
-   "fieldname": "data_30",
-   "fieldtype": "Select",
-   "label": " C2 Have you ever attended any educational institution?                    ",
-   "options": "\nCurrently attending => C5\nCompleted school => C7\nDropped out of school => C4\nNever attended => C3"
-  },
-  {
-   "fieldname": "c3__what_were_the_main_reasons_why_you_never_attended_school",
-   "fieldtype": "Select",
-   "label": "C3  What were the main reasons why you never attended school?",
-   "options": "\nNo school/ school is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nNo dormitory available at school\nMyself not interested in school\nWorking to contribute to family income\nHelp at home with household chores\nBusy with animal husbandry\nFamily does not allow schooling\nIllness/ Disabled\nFamily Problem\nOthers\nAll ==>Section D"
-  },
-  {
-   "fieldname": "c4_what_were_the_main_reasons_why_you_dropped_out_of_school",
-   "fieldtype": "Select",
-   "label": "C4 What were the main reasons why you dropped out of school?",
-   "options": "\nNot liked school's environment\nSchool is too far\nNot able to obtain school supplies and uniforms\nCould not obtain tuition fee\nUnderachiever/ not interested in school\nWorking to contribute to family income\nDue to migration\nDormitory is not available\nHelp at home with household chores\nTo become herder\nFamily does not allow schooling\nIllness\nDisabled\nOthers\nAll ==> C7"
-  },
-  {
-   "fieldname": "c5_what_levelgrade_are_you_currently_attending",
-   "fieldtype": "Select",
-   "label": "C5 What level/grade are you currently attending?  ",
-   "options": "\nKindergarten, preschool;\n01. to 06. Class 1 to class 6 (primary school);\n07. to 13. Form 1 to form 7 (secondary school);\n14. Technical or vocational grade;\n15. University/High school grade;\n16. Other (note)"
-  },
-  {
-   "fieldname": "c6_type_of_school",
-   "fieldtype": "Select",
-   "label": "C6 Type of School ",
-   "options": "\nPublic\nPrivate\nOther (note)"
-  },
-  {
-   "fieldname": "c7_highest_educational_level_you_successfully_completed_",
-   "fieldtype": "Select",
-   "label": "C7 Highest educational level you successfully completed ?",
-   "options": "\nNone\nPrimary\nSecondary\nHigh school\nTechnical vocational\nSpecialized secondary\nUndergraduate\nPostgraduate\nDoctor and above"
-  },
-  {
-   "fieldname": "c8",
-   "fieldtype": "Data",
-   "label": "C8 "
-  },
-  {
-   "description": "Have you (has NAME) attended any vocational and technical training programmes in the last 3 years?",
-   "fieldname": "c9_vocational_and_technical_programmes",
-   "fieldtype": "Select",
-   "label": "C10 Vocational and Technical Programmes ",
-   "options": "\nYes\nNo => Section D"
-  },
-  {
-   "fieldname": "c13_is_this_vocational_and_technical_training_funded_by_tssf_",
-   "fieldtype": "Select",
-   "label": "C13 Is this vocational and technical training funded by TSSF ?",
-   "options": "\nYes => C21\nNo => Section D"
-  },
-  {
-   "fieldname": "c14_if_yes_when_did_you_receive_tssf_funding",
-   "fieldtype": "Data",
-   "label": "C14 If Yes, when did you receive TSSF funding?"
-  },
-  {
-   "description": "For household members who have attended any TSSF funded training",
-   "fieldname": "section_c1_tssf_funded_training_section",
-   "fieldtype": "Section Break",
-   "label": "SECTION C1 TSSF Funded Training"
-  },
-  {
-   "description": " Looking back, if you were free to choose again, to what extent would you probably choose the same field of study?",
-   "fieldname": "data_42",
-   "fieldtype": "Select",
-   "label": "C21  If you were free to choose again, would you probably choose the same field of study?",
-   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
-  },
-  {
-   "description": "Looking back, if you were free to choose again to what extent would you probably choose the same TVET institution",
-   "fieldname": "c22__would_you_choose_the_same_tvet_institution_again",
-   "fieldtype": "Select",
-   "label": "C22  Would you choose the same TVET institution again?",
-   "options": "\nNot at all\nMaybe not\nDon't know\nLikely\nVery Likely"
-  },
-  {
-   "description": "Looking back, to what extent are you satisfied with your studies in general?",
-   "fieldname": "c23_to_what_extent_are_you_satisfied_with_your_studies",
-   "fieldtype": "Select",
-   "label": "C23 To what extent are you satisfied with your studies?",
-   "options": "\nNot Satisfied at all\nNot Satisfied\nDon't know\nSatisfied\nVery Satisfied"
-  },
-  {
-   "fieldname": "c24_did_the_schools_receive_their_tuition_fees_on_time",
-   "fieldtype": "Select",
-   "label": "C24 Did the schools receive their tuition fees on time? ",
-   "options": "\nYes\nNo"
-  },
-  {
-   "fieldname": "c25_did_you_receive_your_monthly_oila_on_time",
-   "fieldtype": "Select",
-   "label": "C25 Did you receive your monthly OILA on time? ",
-   "options": "\nYes\nNo"
-  },
-  {
-   "fieldname": "c26_who_recieved_the_fund",
-   "fieldtype": "Select",
-   "label": "C26 Who recieved the fund?",
-   "options": "\nStudent\nParents\nGuardian"
-  },
-  {
-   "fieldname": "c27_what_did_they__spend_the_money_on",
-   "fieldtype": "Select",
-   "label": "C27 What did they  spend the money on?",
-   "options": "\nAccomodation\nFood\nEducation\nClothing\nHealth\nTransfer back to Family\nOthers (specify)"
-  },
-  {
-   "fieldname": "c28_if_transferred_back_to_family_how_much_did_they_send_back",
-   "fieldtype": "Data",
-   "label": "C28 If transferred back to family, how much did they send back?"
-  },
-  {
-   "description": "Which description applies to your situation in the first six months after graduating? ",
-   "fieldname": "c30_which_describes_your_situation_after_graduating",
-   "fieldtype": "Select",
-   "label": "C30 Which describes your situation after graduating? ",
-   "options": "\nEmployment\nSelf-employed/freelance work\nOccasional job (just to earn money)\nInternship\ncontinued study or training\nHousewife, househusband, family work\nNot employed, but searching for a job\nOther (please specify)"
-  },
-  {
-   "description": "How many jobs (including your current one) have you had altogether since graduation?",
-   "fieldname": "data_51",
-   "fieldtype": "Select",
-   "label": "C31 How many jobs have you had altogether since graduation?",
-   "options": "\nNo job, I have not been employed since graduation =>C38\nOne job\nTwo jobs\nThree jobs\nMore than three jobs"
-  },
-  {
-   "fieldname": "data_52",
-   "fieldtype": "Select",
-   "label": "C32 When did you start your first job after graduation?",
-   "options": "\nBefore graduation\nAt the time of graduation\nLess than 1 month after graduation\n1 to less than 3 months after graduation\n3 to less than 6 months after graduation\n6 to less than 9 months after graduation\n9 to less than 12 months after graduation\nMore than one year after graduation\nI have not been employed since graduation"
-  },
-  {
-   "fieldname": "c33_where_was_your_first_job_located",
-   "fieldtype": "Select",
-   "label": "C33 Where was your first job located?",
-   "options": "\nLocal (divisional)\nOther Division in Tonga (other than local)\nInternational"
-  },
-  {
-   "description": "How long did it take to search for your job? Include also job search period before graduation.",
-   "fieldname": "c34__how_long_did_it_take_to_search_for_your_job",
-   "fieldtype": "Select",
-   "label": "C34  How long did it take to search for your job?",
-   "options": "\nLess than 1 month\n1 to less than 3 months\n3 to less than 6 months\n6 to less than 9 months\n9 to less than 12 months\nMore than one year"
-  },
-  {
-   "fieldname": "c35_how_much_did_you_spend_in_securing_your_first_job",
-   "fieldtype": "Data",
-   "label": "C35 How much did you spend in securing your first job?"
-  },
-  {
-   "description": "Did you get any assistance to access  this employment opportunity?",
-   "fieldname": "c36_assistance_to_this_employment_opportunity",
-   "fieldtype": "Select",
-   "label": "C36 Assistance to this employment opportunity?",
-   "options": "\nYes\nNo"
-  },
-  {
-   "description": "To what extent is the knowledge and skills you acquired during study utilised in your current job? \nGo ==> C39",
-   "fieldname": "c37_do_you_use_acquired_skills_during_study_in_your_current_job",
-   "fieldtype": "Select",
-   "label": "C37 Do you use acquired skills during study in your current job?",
-   "options": "\nNot at all\nNot much\nSome\na lot\nCompletely"
-  },
-  {
-   "fieldname": "c38_why_were_you_unable_to_find_a_job_after_graduation",
-   "fieldtype": "Select",
-   "label": "C38 Why were you unable to find a job after graduation?",
-   "options": "\ncontinued studying\nHouse work\nhealth issues\ntraining not appropriate for market demand\nothers (specify)"
-  },
-  {
-   "fieldname": "c39_how_can_the_program_be_improved_going_forward",
-   "fieldtype": "Data",
-   "label": "C39 How can the program be improved, going forward?"
-  },
-  {
-   "description": "Asked of persons aged 15+ years.",
-   "fieldname": "section_d_employment_and_salary_wages_section",
-   "fieldtype": "Section Break",
-   "label": "Section D Employment and Salary wages"
-  },
-  {
-   "description": "What is the relationship of the person providing the information to the person for whom information is being collected?",
-   "fieldname": "d1_relationship",
-   "fieldtype": "Select",
-   "label": "D2 Relationship",
-   "options": "\nSpouse /partner\nSon /daughter\nMother / father\nOther relative\nUnrelated"
-  },
-  {
-   "description": "05-13 => Section C",
-   "fieldname": "d4__what_was_your_main_activity_during_the_last_12_months",
-   "fieldtype": "Select",
-   "label": "D4  What was your main activity during the last 12 months? ",
-   "options": "Paid employment:\n01 Employer (producing goods or services for sale, running a business with paid employees)\n02 Self-employed (producing goods or services for sale, runing a business without paid employees)\n03 Employee, working for wages/salary in public sector (incl. NGO, UN agencies)\n04 Employee, working for wages/salary in private sector;\nUnpaid employment:\n05 Producing goods for own and/or family consumption (self-employed)\n06 Unpaid family worker (family business/plantation)\n07 Unpaid family worker, help with basic household duties inside (washing, cooking, cleaning, etc) and outside (gardening, maintaining lawn, etc)\n08 Volunteer work (community, church, etc.)\nNot in the labour force:\n09 Student\n10 Home maker\n11 Retired/Too old\n12 None - Did not pursue any activity (no work)\n13 Physically/Mentally disabled"
+   "depends_on": "eval:doc.f_1 == 1",
+   "fieldname": "f_1_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_1 == 1"
   },
   {
    "default": "0",
-   "fieldname": "d_64",
+   "fieldname": "f_2",
    "fieldtype": "Check",
-   "label": "Is the person him/herself responding to the questions?"
+   "label": "F2. Mortgage "
   },
   {
-   "fieldname": "television_now",
-   "fieldtype": "Data",
-   "label": "Television - Now"
+   "depends_on": "eval:doc.f_2 == 1",
+   "fieldname": "f_2_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_2 == 1 "
   },
   {
-   "fieldname": "b12_section_break",
+   "default": "0",
+   "fieldname": "f_3",
+   "fieldtype": "Check",
+   "label": "F3. Expenditure related to the maintenance of a house or land"
+  },
+  {
+   "depends_on": "eval:doc.f_3 == 1",
+   "fieldname": "f_3_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_3 == 1"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_4",
+   "fieldtype": "Check",
+   "label": "F4. Tools or equipment's for house or land maintenance"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_5",
+   "fieldtype": "Check",
+   "label": "F5. Electricity"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_6",
+   "fieldtype": "Check",
+   "label": "F6. Fuel (for generator, cooking, heating, etc)"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_7",
+   "fieldtype": "Check",
+   "label": "F7. Water"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_9",
+   "fieldtype": "Check",
+   "label": "F9. Waste removal"
+  },
+  {
+   "bold": 1,
+   "default": "0",
+   "fieldname": "f_10",
+   "fieldtype": "Check",
+   "label": "F10. Purchases related to furniture, furnishings and floor coverings"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_11",
+   "fieldtype": "Check",
+   "label": "F11. Household textiles"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_12",
+   "fieldtype": "Check",
+   "label": "F12. Major household appliances"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_13",
+   "fieldtype": "Check",
+   "label": "F13. Recreational and entertainment equipment"
+  },
+  {
+   "depends_on": "eval:doc.f_5 == 1",
+   "fieldname": "f_5_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_7 == 1",
+   "fieldname": "f_7_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_4 == 1 ",
+   "fieldname": "f_4_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_4 == 1"
+  },
+  {
+   "depends_on": "eval:doc.f_6 == 1",
+   "fieldname": "f_6_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_6 == 1"
+  },
+  {
+   "depends_on": "eval:doc.f_9 == 1",
+   "fieldname": "f_9_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_8",
+   "fieldtype": "Check",
+   "label": "F8. Communication related expenditure"
+  },
+  {
+   "depends_on": "eval:doc.f_8 == 1",
+   "fieldname": "f_8_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_11 == 1",
+   "fieldname": "f_11_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_13 == 1",
+   "fieldname": "f_13_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_15",
+   "fieldtype": "Check",
+   "label": "F15. Vehicle Maintanence"
+  },
+  {
+   "depends_on": "eval:doc.f_15 == 1",
+   "fieldname": "f_15_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_17",
+   "fieldtype": "Check",
+   "label": "F17. Domestic Travel Expenditure"
+  },
+  {
+   "depends_on": "eval:doc.f_17 == 1",
+   "fieldname": "f_17_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_19",
+   "fieldtype": "Check",
+   "label": "F19. Household Asset Insurance and Tax"
+  },
+  {
+   "depends_on": "eval:doc.f_19 == 1",
+   "fieldname": "f_19_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_21",
+   "fieldtype": "Check",
+   "label": "F21. Other household services"
+  },
+  {
+   "depends_on": "eval:doc.f_21 == 1",
+   "fieldname": "f_21_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_23",
+   "fieldtype": "Check",
+   "label": "F23. Provision of Financial Support"
+  },
+  {
+   "depends_on": "eval:doc.f_23 == 1",
+   "fieldname": "f_23_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_25",
+   "fieldtype": "Check",
+   "label": "F25. Out patient visits"
+  },
+  {
+   "depends_on": "eval:doc.f_25 == 1",
+   "fieldname": "f_25_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_29",
+   "fieldtype": "Check",
+   "label": "F29. Pre-/Ante- natal or maternal care outside hospital"
+  },
+  {
+   "depends_on": "eval:doc.f_29 == 1",
+   "fieldname": "f_29_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_27",
+   "fieldtype": "Check",
+   "label": "F27. Medicine, antibiotics or other prescribed medicine"
+  },
+  {
+   "depends_on": "eval:doc.f_27 == 1",
+   "fieldname": "f_27_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_12 == 1",
+   "fieldname": "f_12_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_14",
+   "fieldtype": "Check",
+   "label": "F14. Computer equipment"
+  },
+  {
+   "depends_on": "eval:doc.f_14 == 1",
+   "fieldname": "f_14_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_16",
+   "fieldtype": "Check",
+   "label": "F16. Petrol"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_18",
+   "fieldtype": "Check",
+   "label": "F18. International Travel Expense"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_20",
+   "fieldtype": "Check",
+   "label": "F20. Personal Insurance"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_22",
+   "fieldtype": "Check",
+   "label": "F22. Cash contribution to special events "
+  },
+  {
+   "depends_on": "eval:doc.f_10 == 1",
+   "fieldname": "f_10_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_16 == 1",
+   "fieldname": "f_16_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_18 == 1",
+   "fieldname": "f_18_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_20 == 1",
+   "fieldname": "f_20_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "depends_on": "eval:doc.f_22 == 1",
+   "fieldname": "f_22_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_31",
+   "fieldtype": "Check",
+   "label": "F31. Food and non-alcohol drink expenditure"
+  },
+  {
+   "depends_on": "eval:doc.f_31 == 1",
+   "fieldname": "f_31_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_37",
+   "fieldtype": "Check",
+   "label": "F37. Tobacco"
+  },
+  {
+   "depends_on": "eval:doc.f_37 == 1",
+   "fieldname": "f_37_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_24",
+   "fieldtype": "Check",
+   "label": "F24. Private practitioners"
+  },
+  {
+   "depends_on": "eval:doc.f_24 == 1",
+   "fieldname": "f_24_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_26",
+   "fieldtype": "Check",
+   "label": "F26. Hospital charges"
+  },
+  {
+   "depends_on": "eval:doc.f_26 == 1",
+   "fieldname": "f_26_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_28",
+   "fieldtype": "Check",
+   "label": "F28. Dental fee"
+  },
+  {
+   "depends_on": "eval:doc.f_28 == 1",
+   "fieldname": "f_28_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_30",
+   "fieldtype": "Check",
+   "label": "F30. Other pharmacy or therapeutic products"
+  },
+  {
+   "depends_on": "eval:doc.f_30 == 1",
+   "fieldname": "f_30_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_32",
+   "fieldtype": "Check",
+   "label": "F32. Restaurant meals "
+  },
+  {
+   "depends_on": "eval:doc.f_32 == 1",
+   "fieldname": "f_32_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_38",
+   "fieldtype": "Check",
+   "label": "F38. Fee for Kindergarten"
+  },
+  {
+   "depends_on": "eval:doc.f_38 == 1",
+   "fieldname": "f_38_b",
+   "fieldtype": "Currency",
+   "label": "Other food and drink expenditure"
+  },
+  {
+   "default": "0",
+   "fieldname": "f_40",
+   "fieldtype": "Check",
+   "label": "F40.  Fee for secondary school"
+  },
+  {
+   "depends_on": "eval:doc.f_40 == 1",
+   "fieldname": "f_40_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "collapsible": 1,
+   "description": "<b>The following questions should be asked to the head of household, spouse of the head of household, or to another adult household member, if both head and spouse are absent (include all household members present or who intend to be present for at least 6 months, whether related or not).</b>\n<hr>",
+   "fieldname": "section_a",
    "fieldtype": "Section Break",
-   "label": "B12 How many following items does this household have?"
+   "label": "A. HOUSEHOLD ROSTER"
   },
   {
-   "fieldname": "television_12_months_go",
-   "fieldtype": "Data",
-   "label": "Television - 12 Months ago"
+   "fieldname": "household_roster",
+   "fieldtype": "Table",
+   "label": "Household Roster",
+   "options": "Household Roster"
   },
   {
-   "fieldname": "b12_column_break",
-   "fieldtype": "Column Break"
+   "default": "0",
+   "fieldname": "f_39",
+   "fieldtype": "Check",
+   "label": "F39. Fee for Primary school"
   },
   {
-   "fieldname": "column_break_23",
-   "fieldtype": "Column Break"
+   "depends_on": "eval:doc.f_39 == 1",
+   "fieldname": "f_39_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
   },
   {
-   "fieldname": "column_break_55",
-   "fieldtype": "Column Break"
+   "default": "0",
+   "fieldname": "f_41",
+   "fieldtype": "Check",
+   "label": "F41. Fee for tertiary School"
   },
   {
-   "description": "For all household members aged 5 years and above",
-   "fieldname": "section_c_education_and_training",
+   "depends_on": "eval:doc.f_41 == 1",
+   "fieldname": "f_41_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_43",
+   "fieldtype": "Check",
+   "label": "F43. Boarding"
+  },
+  {
+   "depends_on": "eval:doc.f_43 == 1",
+   "fieldname": "f_43_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_45",
+   "fieldtype": "Check",
+   "label": "F45. Textbooks and exercise books"
+  },
+  {
+   "depends_on": "eval:doc.f_45 == 1",
+   "fieldname": "f_45_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_47",
+   "fieldtype": "Check",
+   "label": "F47. School event"
+  },
+  {
+   "depends_on": "eval:doc.f_47 == 1",
+   "fieldname": "f_47_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_49",
+   "fieldtype": "Check",
+   "label": "F49. Men\u2019s and boys\u2019 clothes Eg, shirts, T-shirts, shorts, pants, underwear (exclude: school uniforms)  "
+  },
+  {
+   "depends_on": "eval:doc.f_49 == 1",
+   "fieldname": "f_49_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_51",
+   "fieldtype": "Check",
+   "label": "F51. Infant clothes (<2 yrs old) Eg, dress, shirt (exclude: disposable nappies)"
+  },
+  {
+   "depends_on": "eval:doc.f_51 == 1",
+   "fieldname": "f_51_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_53",
+   "fieldtype": "Check",
+   "label": "F53. Clothing fabrics Eg, lace, materials"
+  },
+  {
+   "depends_on": "eval:doc.f_53 == 1",
+   "fieldname": "f_53_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_55",
+   "fieldtype": "Check",
+   "label": "F55. Sports activities and equipment's"
+  },
+  {
+   "depends_on": "eval:doc.f_55 == 1",
+   "fieldname": "f_55_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_42",
+   "fieldtype": "Check",
+   "label": "F42. Fee for other institution"
+  },
+  {
+   "depends_on": "eval:doc.f_42 == 1",
+   "fieldname": "f_42_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_44",
+   "fieldtype": "Check",
+   "label": "F44. School Uniform"
+  },
+  {
+   "depends_on": "eval:doc.f_44 == 1",
+   "fieldname": "f_44_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_46",
+   "fieldtype": "Check",
+   "label": "F46. Stationaries"
+  },
+  {
+   "depends_on": "eval:doc.f_46 == 1",
+   "fieldname": "f_46_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_48",
+   "fieldtype": "Check",
+   "label": "F48. Others"
+  },
+  {
+   "depends_on": "eval:doc.f_48 == 1",
+   "fieldname": "f_48_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_50",
+   "fieldtype": "Check",
+   "label": "F50. Women\u2019s and girls\u2019 clothes Eg, dresses, blouses, shirts, skirts, underwear (exclude: school uniforms)"
+  },
+  {
+   "depends_on": "eval:doc.f_50 == 1",
+   "fieldname": "f_50_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_52",
+   "fieldtype": "Check",
+   "label": "F52. Infant clothes (<2 yrs old) Eg, dress, shirt (exclude: disposable nappies)"
+  },
+  {
+   "depends_on": "eval:doc.f_52 == 1",
+   "fieldname": "f_52_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_54",
+   "fieldtype": "Check",
+   "label": "F54. Shoes & slippers Eg, shoes, sandals, boots"
+  },
+  {
+   "depends_on": "eval:doc.f_54 == 1",
+   "fieldname": "f_54_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_56",
+   "fieldtype": "Check",
+   "label": "F56. Music activities and instruments"
+  },
+  {
+   "depends_on": "eval:doc.f_56 == 1",
+   "fieldname": "f_56_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_58",
+   "fieldtype": "Check",
+   "label": "F58. TV and radio services, Video, Calble TV, Game"
+  },
+  {
+   "depends_on": "eval:doc.f_58 == 1",
+   "fieldname": "f_58_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "bold": 1,
+   "default": "0",
+   "fieldname": "f_60",
+   "fieldtype": "Check",
+   "label": "F60. Pets and related products and services "
+  },
+  {
+   "depends_on": "eval:doc.f_60 == 1",
+   "fieldname": "f_60_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_57",
+   "fieldtype": "Check",
+   "label": "F57. Cinemas, theaters, concerts, museum, etc. "
+  },
+  {
+   "depends_on": "eval:doc.f_57 == 1",
+   "fieldname": "f_57_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_59",
+   "fieldtype": "Check",
+   "label": "F59. Outdoor activities (camping, gardenning), products, and services"
+  },
+  {
+   "depends_on": "eval:doc.f_59 == 1",
+   "fieldname": "f_59_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_61",
+   "fieldtype": "Check",
+   "label": "F61. Holiday package "
+  },
+  {
+   "depends_on": "eval:doc.f_61 == 1",
+   "fieldname": "f_61_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_33",
+   "fieldtype": "Check",
+   "label": "F33. Catering services in places providing recreational, cultural, sporting or entertainment services"
+  },
+  {
+   "depends_on": "eval:doc.f_33 == 1",
+   "fieldname": "f_33_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_35",
+   "fieldtype": "Check",
+   "label": "F35. Alcohol"
+  },
+  {
+   "depends_on": "eval:doc.f_35 == 1",
+   "fieldname": "f_35_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_34",
+   "fieldtype": "Check",
+   "label": "F34. Other food and drink expenditure"
+  },
+  {
+   "depends_on": "eval:doc.f_34 == 1",
+   "fieldname": "f_34_b",
+   "fieldtype": "Currency",
+   "label": "How much did your household or any member pay? "
+  },
+  {
+   "default": "0",
+   "fieldname": "f_36",
+   "fieldtype": "Check",
+   "label": "F36. Kava"
+  },
+  {
+   "depends_on": "eval:doc.f_36 == 1",
+   "fieldname": "f_36_b",
+   "fieldtype": "Currency",
+   "label": "Other food and drink expenditure"
+  },
+  {
+   "collapsible": 1,
+   "description": "<b>Has anyone in the household during the last 12 months purchased or paid for any?<br>ASK YES/NO FOR ALL TIMES BEFORE ASKING AMOUNT PAID.</b>\n<hr>",
+   "fieldname": "section_f",
    "fieldtype": "Section Break",
-   "label": "Section C Education and Training"
+   "label": "F. EXPENDITURES IN THE PAST 12 MONTHS"
   },
   {
-   "fieldname": "column_break_43",
+   "collapsible": 1,
+   "description": "<b>Asked of persons aged 15+ years.</b>\n<hr>",
+   "fieldname": "section_d",
+   "fieldtype": "Section Break",
+   "label": "D. EMPLOYMENT AND SALARY AND WAGES"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_b",
+   "fieldtype": "Section Break",
+   "label": "B. HOUSING CHARACTERISTICS AND DEPRIVATION"
+  },
+  {
+   "fieldname": "household_items",
+   "fieldtype": "Table",
+   "label": "B12 How many following items does this household have?",
+   "options": "Household Items"
+  },
+  {
+   "collapsible": 1,
+   "description": "<b>For all household members aged 5 years and above</b><hr>",
+   "fieldname": "section_c",
+   "fieldtype": "Section Break",
+   "label": "C. EDUCATION AND TRAINING"
+  },
+  {
+   "collapsible": 1,
+   "description": "<b>For household members who have attended any TSSF funded training</b>\n<hr>",
+   "fieldname": "section_c1",
+   "fieldtype": "Section Break",
+   "label": "C1. TSSF FUNDED TRAINING"
+  },
+  {
+   "collapsible": 1,
+   "description": "<b>We would like to know from which of the following sources your household derived income ;\n<br>a) during the last 30 days, and \n<br>b) during the past 12 months.</b>\n<hr>",
+   "fieldname": "section_e",
+   "fieldtype": "Section Break",
+   "label": "E. HOUSEHOLD INCOME"
+  },
+  {
+   "fieldname": "household_income",
+   "fieldtype": "Table",
+   "label": "HOUSEHOLD INCOME",
+   "options": "Household Income"
+  },
+  {
+   "description": "What is the relationship of the person providing the information to the person for whom information is being collected?",
+   "fieldname": "d_2",
+   "fieldtype": "Select",
+   "label": "D2. Relationship",
+   "options": "\nSpouse /partner\nSon /daughter\nMother / father\nOther relative\nUnrelated"
+  },
+  {
+   "fieldname": "column_break_70",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "b1",
-   "fieldtype": "Select",
-   "label": "B1 For the house in which you live, what is the TENURE status for this household?",
-   "options": "\nRenting with Landlord Charges\nLive in the for free\nOwn the house outright\nOwn the house with Mortgage/Loan"
-  },
-  {
-   "fieldname": "b2",
-   "fieldtype": "Select",
-   "label": "B2 What type of living quater (main house) is this?",
-   "options": "\nOne house detached from any other house\nOne house attached to one or more houses\nBuilding with 2 or more apartments\nBuilding with 2 or more households sharing kitchen/ toilet\nBuilding attached to a business/ other non-resident building\nOther"
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-29 20:55:41.389994",
+ "modified": "2022-06-03 15:44:19.980140",
  "modified_by": "Administrator",
  "module": "Savea",
  "name": "SET Project TVET",
