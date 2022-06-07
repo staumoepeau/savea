@@ -228,20 +228,21 @@
   },
   {
    "fieldname": "region",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Region",
-   "options": "\nTongatapu\nEua\nHaapai\nVavau\nNiuafoou\nNiuatoputapu"
+   "options": "Island Division"
   },
   {
    "fieldname": "district",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "District",
-   "options": "\nHihifo\nHahake"
+   "options": "District"
   },
   {
    "fieldname": "village",
-   "fieldtype": "Data",
-   "label": "Village"
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village"
   },
   {
    "fieldname": "gps_number",
@@ -605,16 +606,13 @@
   },
   {
    "fieldname": "d_9a",
-   "fieldtype": "Link",
-   "label": "D9A. Name the Country you worked in ?",
-   "options": "Country"
+   "fieldtype": "Data",
+   "label": "D9A. Name the Country you worked in ?"
   },
   {
-   "fetch_from": "d_9a.code",
    "fieldname": "d_9b",
    "fieldtype": "Data",
-   "label": "D9B. Country code",
-   "read_only": 1
+   "label": "D9B. Country code"
   },
   {
    "fieldname": "d_10",
@@ -1288,7 +1286,8 @@
    "depends_on": "eval:doc.f_54 == 1",
    "fieldname": "f_54_b",
    "fieldtype": "Currency",
-   "label": "How much did your household or any member pay? "
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_54 == 1"
   },
   {
    "default": "0",
@@ -1300,7 +1299,8 @@
    "depends_on": "eval:doc.f_56 == 1",
    "fieldname": "f_56_b",
    "fieldtype": "Currency",
-   "label": "How much did your household or any member pay? "
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_56 == 1"
   },
   {
    "default": "0",
@@ -1312,7 +1312,8 @@
    "depends_on": "eval:doc.f_58 == 1",
    "fieldname": "f_58_b",
    "fieldtype": "Currency",
-   "label": "How much did your household or any member pay? "
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_58 == 1"
   },
   {
    "bold": 1,
@@ -1325,7 +1326,8 @@
    "depends_on": "eval:doc.f_60 == 1",
    "fieldname": "f_60_b",
    "fieldtype": "Currency",
-   "label": "How much did your household or any member pay? "
+   "label": "How much did your household or any member pay? ",
+   "mandatory_depends_on": "eval:doc.f_60 == 1"
   },
   {
    "default": "0",
@@ -1484,7 +1486,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-06-03 15:44:19.980140",
+ "modified": "2022-06-07 17:58:36.240650",
  "modified_by": "Administrator",
  "module": "Savea",
  "name": "SET Project TVET",
