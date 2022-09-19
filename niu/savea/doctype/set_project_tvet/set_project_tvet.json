@@ -1486,10 +1486,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-06-07 17:58:36.240650",
+ "modified": "2022-09-18 11:35:51.593183",
  "modified_by": "Administrator",
  "module": "Savea",
  "name": "SET Project TVET",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -1519,5 +1520,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

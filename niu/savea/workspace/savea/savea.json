@@ -1,32 +1,62 @@
 {
- "category": "Modules",
  "charts": [],
- "creation": "2022-05-27 14:31:50.956657",
- "developer_mode_only": 0,
- "disable_user_customization": 0,
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Savea</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Survey\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Tools\",\"col\":4}}]",
+ "creation": "2022-09-19 04:09:24.139078",
  "docstatus": 0,
  "doctype": "Workspace",
- "extends_another_page": 0,
+ "for_user": "",
  "hide_custom": 0,
- "icon": "education",
+ "icon": "milestone",
  "idx": 0,
- "is_default": 0,
- "is_standard": 1,
  "label": "Savea",
- "links": [],
- "modified": "2022-05-27 14:34:23.895913",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Survey",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TVET Survey",
+   "link_count": 0,
+   "link_to": "TVET Survey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tools",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Household Lookup",
+   "link_count": 0,
+   "link_to": "Search for Household",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-09-19 06:14:59.226640",
  "modified_by": "Administrator",
  "module": "Savea",
  "name": "Savea",
  "owner": "Administrator",
- "pin_to_bottom": 0,
- "pin_to_top": 0,
- "shortcuts": [
-  {
-   "doc_view": "List",
-   "label": "SET Project TVET",
-   "link_to": "SET Project TVET",
-   "type": "DocType"
-  }
- ]
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [],
+ "title": "Savea"
 }

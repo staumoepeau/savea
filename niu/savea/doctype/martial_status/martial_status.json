@@ -1,50 +1,28 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_rename": 1,
- "autoname": "field:village",
- "creation": "2022-06-07 17:42:11.183659",
+ "autoname": "field:martial_status",
+ "creation": "2022-09-19 01:23:26.830583",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "island",
-  "district",
-  "village",
-  "village_code"
+  "martial_status"
  ],
  "fields": [
   {
-   "fieldname": "village",
+   "fieldname": "martial_status",
    "fieldtype": "Data",
-   "label": "Village",
+   "label": "Martial Status",
    "unique": 1
-  },
-  {
-   "fieldname": "village_code",
-   "fieldtype": "Data",
-   "label": "Code",
-   "length": 4
-  },
-  {
-   "fieldname": "island",
-   "fieldtype": "Link",
-   "label": "Island",
-   "options": "Island Division"
-  },
-  {
-   "fieldname": "district",
-   "fieldtype": "Link",
-   "label": "District",
-   "options": "District"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-19 00:30:50.213352",
+ "modified": "2022-09-19 01:28:10.325073",
  "modified_by": "Administrator",
  "module": "Savea",
- "name": "Village",
+ "name": "Martial Status",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

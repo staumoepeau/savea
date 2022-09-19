@@ -1,68 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2022-05-30 13:55:31.433446",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "a_1",
-  "a_2",
-  "a_3",
-  "a_4",
-  "a_5",
-  "a_6",
-  "a_24",
+  "naming_series",
+  "full_name",
+  "relationship",
+  "gender",
+  "dob",
+  "age",
+  "martial_status",
+  "occupation",
+  "education_status",
+  "school",
+  "education_level",
   "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "a_1",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Name of household member"
-  },
-  {
-   "description": "What is your relationship to the household head?   ",
-   "fieldname": "a_2",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Relationship to the household head?   ",
-   "options": "\nHousehold head\nHusband/wife\nSon/daugther\nParents\nBrother/sister\nParents in law\nSon/daughter in law\nGrandparents\nGrandchild\nOther relative\nNon relative"
-  },
-  {
-   "fieldname": "a_3",
-   "fieldtype": "Select",
-   "label": "Person No (ID in column 1) of the member providing answers",
-   "options": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
-  },
-  {
-   "fieldname": "a_4",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Gender",
-   "options": "\nMale\nFemale"
-  },
-  {
-   "fieldname": "a_5",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Date of Birth"
-  },
-  {
-   "description": "Age in completed years\n",
-   "fieldname": "a_6",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Age"
-  },
-  {
-   "fieldname": "a_24",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Martial Status ",
-   "options": "\nNever married\nMarried\nDefacto\nSeparated\nDivorced\nWidowed"
-  },
   {
    "fieldname": "amended_from",
    "fieldtype": "Link",
@@ -71,18 +29,90 @@
    "options": "Household Roster",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "1.########"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Name of household member"
+  },
+  {
+   "description": "What is your relationship to the household head?   ",
+   "fieldname": "relationship",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Relationship to the household head?   ",
+   "options": "Relationship to the household"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Birth"
+  },
+  {
+   "description": "Age in completed years\n",
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Age"
+  },
+  {
+   "fieldname": "martial_status",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Martial Status ",
+   "options": "Martial Status"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "education_status",
+   "fieldtype": "Data",
+   "label": "Education Stauts"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "label": "School"
+  },
+  {
+   "fieldname": "education_level",
+   "fieldtype": "Data",
+   "label": "Education Level"
   }
  ],
- "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-06-03 13:42:36.856798",
+ "modified": "2022-09-19 03:43:38.105094",
  "modified_by": "Administrator",
  "module": "Savea",
  "name": "Household Roster",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }
